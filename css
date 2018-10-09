@@ -1,0 +1,317 @@
+/* 
+
+Credit where credit is due:
+
+- CSS for the boxes and buttons and textboxes was made by /u/MrDoggyPants for the /r/diepio subreddit
+- w3schools.com for a lot of stuff like the copy code and reset buttons, progress bar, and a lot of the styling stuff with js
+- StackOverflow helped answer a lot of technical issues and stuff, but I'm too lazy to go back and credit every single StackOverflow user whose code I used
+*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:700,900');
+
+
+body {
+  font-family: "Ubuntu", "Trebuchet MS", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-image: url(https://res.cloudinary.com/road6943/image/upload/v1538771066/grid.png);
+  background-color: #CDCDCD
+}
+
+
+/* Style the header: fixed position (always stay at the top) */
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+  height: 8px;
+  background: #c86743;
+  width: 0%;
+}
+
+
+h2 {
+  font-weight: bold;
+  color: #fff;
+  font-size: 45px;
+}
+
+table{
+    align: center
+    table-layout: fixed;
+    border-collapse:collapse;
+    margin-left:auto;
+    margin-right:auto
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+th, td {
+    overflow: hidden;
+}
+
+
+
+img {
+  not sure why but typing stuff here centers images
+  display: block;
+  max-width: 33%;
+  background:#a7a7b0;
+  border-radius: 8px 8px 8px 8px;
+	border-top:6px solid #3d6a7b;
+  border-bottom:6px solid #3d6a7b;
+  border-left:6px solid #3d6a7b;
+	border-right:6px solid #3d6a7b;
+  padding-left:0px;
+	padding-right:0px;
+	padding-top:0px;
+  padding-bottom:0px;
+}
+
+
+.boxGrey {
+	background:#a7a7b0;
+	border-radius: 8px 8px 8px 8px;
+	border-top:0px solid #86868D;
+  border-bottom:0px solid #86868D;
+  border-left:15px solid #86868D;
+	border-right:15px solid #86868D;
+	padding-left:0px;
+	padding-right:0px;
+	padding-top: 0px;
+  padding-bottom: 0px;
+	color: #F6F6F6;
+}
+
+
+
+.boxGreen {
+	background:#8abc3f;
+	border-radius: 8px 8px 8px 8px;
+	border-top:3px solid #5f7044;
+  border-bottom:3px solid #5f7044;
+  border-left:3px solid #5f7044;
+	border-right:3px solid #5f7044;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:0px;
+  padding-bottom: 0px;
+	color: #F6F6F6;
+}
+
+
+
+.boxBlue1 {
+	background:#43a4c8;
+	border-radius: 8px 8px 8px 8px;
+	border-top:3px solid #3d6a7b;
+  border-bottom:3px solid #3d6a7b;
+  border-left:3px solid #3d6a7b;
+	border-right:3px solid #3d6a7b;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:0px;
+  padding-bottom: 0px;
+	color: #F6F6F6;
+}
+ 
+.boxBlue2 {
+	background:#43a4c8;
+	border-radius: 8px 8px 8px 8px;
+	border-top:3px solid #3d6a7b;
+  border-bottom:3px solid #3d6a7b;
+  border-left:3px solid #3d6a7b;
+	border-right:3px solid #3d6a7b;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:0px;
+  padding-bottom: 20px;
+	color: #F6F6F6;
+}
+
+
+
+
+  
+input[type="submit"]{
+  background:#43a4c8;
+	border-radius: 8px 8px 8px 8px;
+	border-top:3px solid #3d6a7b;
+  border-bottom:3px solid #3d6a7b;
+  border-left:3px solid #3d6a7b;
+	border-right:3px solid #3d6a7b;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:2px;
+  padding-bottom: 2px;
+	color: #F6F6F6;
+}
+input[type="submit"]:hover{
+  background:#6ab7d4;
+}
+
+
+
+input[type="tel"]{
+  background:#a7a7b0;
+	border-radius: 8px 8px 8px 8px;
+	border-top:3px solid #6b696c;
+  border-bottom:3px solid #6b696c;
+  border-left:3px solid #6b696c;
+	border-right:3px solid #6b696c;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:2px;
+  padding-bottom: 2px;
+	color: #F6F6F6;
+}
+input[type="tel"]:hover{
+  background:#bbbbc4;
+}
+
+
+input[type="text"]{
+  background:#a7a7b0;
+  width: 300px;
+	border-radius: 8px 8px 8px 8px;
+	border-top:3px solid #6b696c;
+  border-bottom:3px solid #6b696c;
+  border-left:3px solid #6b696c;
+	border-right:3px solid #6b696c;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:2px;
+  padding-bottom: 2px;
+	color: #F6F6F6;
+}
+input[type="text"]:hover{
+  background:#bbbbc4;
+}
+
+
+input[type="color"]{
+  background:#a7a7b0;
+	border-radius: 8px 8px 8px 8px;
+	border-top:3px solid #6b696c;
+  border-bottom:3px solid #6b696c;
+  border-left:3px solid #6b696c;
+	border-right:3px solid #6b696c;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:2px;
+  padding-bottom: 2px;
+	color: #F6F6F6;
+}
+input[type="color"]:hover{
+  background:#bbbbc4;
+}
+
+input[type="number"]{
+  background:#a7a7b0;
+	border-radius: 8px 8px 8px 8px;
+	border-top:3px solid #6b696c;
+  border-bottom:3px solid #6b696c;
+  border-left:3px solid #6b696c;
+	border-right:3px solid #6b696c;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:2px;
+  padding-bottom: 2px;
+	color: #F6F6F6;
+}
+input[type="number"]:hover{
+  background:#bbbbc4;
+}
+
+
+
+.select-selected {
+  background:#43a4c8;
+	border-radius: 8px 8px 8px 8px;
+	border-top:3px solid #3d6a7b;
+  border-bottom:3px solid #3d6a7b;
+  border-left:3px solid #3d6a7b;
+	border-right:3px solid #3d6a7b;
+	padding-left:6px;
+	padding-right:6px;
+	padding-top:2px;
+  padding-bottom: 20px;
+	color: #F6F6F6;
+}
+input[type="submit"]:hover{
+  background:#6ab7d4;
+}
+
+
+
+html {
+  text-align: center;
+  font-family: Ubuntu, "Trebuchet MS", "Times New Roman", serif;
+}
+
+
+#prettyCode:hover {
+    background: #bbbbc4!important;
+}
+#resetInputs:hover {
+    background: #bbbbc4!important;
+}
+
+#downloadCode:hover {
+    background: #bbbbc4!important;
+}
+
+#finalCode:hover {
+    background: #afafb7!important;
+}
+
+#copyCode:hover {
+    background: #6ab7d4!important;
+}
+
+#guiBlackDropdown:hover {
+    background: #a1ca63!important;
+}
+#guiBlackDropdown {
+    vertical-align: middle;
+  height:30px;
+}
+
+
+input[type=number]{
+    width: 40px;
+} 
+
+
+
+#finalCode{
+ margin: 0 auto;
+}
+
+
+a {
+    color: #565456;
+}
+a:hover {
+    color: #111;
+}
+
+
