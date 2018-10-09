@@ -1,4 +1,4 @@
-# ArrasThemeMaker
+# Arras Theme Maker
 Live Version availiable at this link: https://codepen.io/road-to-100k/full/MPyOeQ/
 ____
 
