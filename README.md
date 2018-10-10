@@ -2,7 +2,7 @@
 Live Version availiable at this link: **https://codepen.io/road-to-100k/full/MPyOeQ/**
 
 ![Alt Text](http://i.imgur.com/KZBskAT.png)
-
+![Alt Text](https://i.imgur.com/6PGh3ws.png)
 ____
 
 This is Version 2.0 of my Arras Theme Maker.
