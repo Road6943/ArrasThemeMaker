@@ -1,7 +1,7 @@
 # Arras Theme Maker
 Live Version availiable at this link: https://codepen.io/road-to-100k/full/MPyOeQ/
 
-! [Alt Text](https://i.imgur.com/KZBskAT.png?)
+! [Alt Text](https://i.imgur.com/KZBskAT.png)
 
 ____
 
