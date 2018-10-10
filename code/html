@@ -50,19 +50,29 @@
 
 <div class="boxBlue2">  
   <!-- Road - I used 2 unicode space characters after longest text to create some space http://www.fileformat.info/info/unicode/char/00a0/browsertest.htm-->
-  <h1> What color should the map background be? </h1>
+  <h1> What color should the map background and room boundaries be? </h1>
     <p>
-     <img src="https://i.redd.it/zqug64uyc0sz.jpg"/>
+     <img src="https://res.cloudinary.com/road6943/image/upload/v1539131730/Arras/Map_Background_2FRoom_Boundaries.png"/>
    </p>
-   Map Background:  <input type="color" name="white" value="#dde6eb" /> 
+ 
+ <table style="width:auto" cellpadding="10">
+    <tr>
+      <td>Map Background:</td>
+      <td><input type="color" name="white" value="#dde6eb" /></td> 
+    </tr>
+    <tr>
+      <td>Room Boundaries:</td>
+      <td><input type="color" name="dgrey" value="#999797"/></td>
+    </tr>
+  </table>
 </div>
-  <br><br>  
+  <br><br>
  
   
 
 <div class="boxBlue2">    
   <h1> What colors should the 4 Teams be? </h1>
-    <p><img src="https://i.redd.it/f79zspex0fl01.jpg"/></p>
+    <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539150202/Arras/Teams3.png"/></p>
     <table style="width:auto" cellpadding="10">
     <tr>
       <td>Blue Team (Top Left/Left):</td>
@@ -77,7 +87,7 @@
       <td><input type="color" name="red" value="#e03e41"/></td>
     </tr>
     <tr>
-      <td>Purple Team (Bottom Right):</td>
+      <td>Magenta Team (Bottom Right):</td>
       <td><input type="color" name="magenta" value="#c16094"></td>
     </tr>
   </table>
@@ -89,7 +99,7 @@
 <div class="boxBlue2">    
   <!-- Road - I used 2 unicode space characters after longest text to create some space http://www.fileformat.info/info/unicode/char/00a0/browsertest.htm-->
   <h1> What colors do you want the shapes to be? </h1>
-  <p><img src="https://i.redd.it/tdjqklzdmqzz.jpg"/></p>	
+  <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539130711/Arras/Shapes.png"/></p>	
    <table style="width:auto" cellpadding="10">
    <tr>
      <td>Eggs:</td>
@@ -142,56 +152,54 @@
  
 <div class="boxBlue2">    
   <h1> What color do you want barrels and rocks to be? </h1>
-   <p><img src="https://i.redd.it/vz2xln7pk5111.jpg"/></p>	
+   <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539132999/Arras/Barrels_2FRocks.png"/></p>	
    Barrels/Rocks:  <input type="color" name="grey" value="#b5b5b9"/> 
 </div>
   <br><br>
 
-  
-  
-<div class="boxBlue2">    
-  <h1> What color do you want dark borders, text outlines, and bar backgrounds to be? </h1>
-    <p><img src="https://i.redd.it/ac0hhthlem011.jpg"/></p>	
-    Dark Borders/Text Outlines/Bar Backgrounds:  <input type="color" name="black" value="#484848"/>
-</div>
-  <br><br>
-
-  
-  
-<div class="boxBlue2">    
-  <h1> What color do you want the room boundaries to be? </h1>  
-   <p><img src="https://i.redd.it/6j8qehanm8l01.jpg"/></p>	
-   Room Boundaries:  <input type="color" name="dgrey" value="#999797"/> 
-</div>
-  <br><br>
  
-  
-
 <div class="boxBlue2">    
   <h1> What color should the in-game text be? </h1> 
-   <p><img src="https://i.redd.it/gfchosmd0aq01.jpg"/></p>	
+   <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539133807/Arras/inGameText.png"/></p>	
    Text Color:  <input type="color" name="guiWhite" value="#ffffff"  />
+</div>
+  <br><br>  
+  
+  
+  
+  
+<div class="boxBlue2">    
+  <h1> What color do you want dark borders, text outlines, and health bar backgrounds to be? </h1>
+    <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539149691/Arras/DarkBorders_2FTextOutlines_2FHealthBarBackground.png"/></p>	
+    Dark Borders/Text Outlines/Health Bar Backgrounds:  <input type="color" name="black" value="#484848"/>
 </div>
   <br><br>
 
-  
 
 <div class="boxBlue2">  
   <h1> Please enter 2 colors that control the background of the pentagon nest: </h1>  
    <h5> Color 4 blends with the pentagon color and gives the bg color when there is a pentagon nest. </h5>
    <h5> Color 7 blends with the map background color and sometimes gives the color of the middle when there is no pentagon nest. It's basically unused unless purposely enabled in a private server. </h5>	
-    <p><img src="https://i.redd.it/obkq1uqxsde11.jpg"/></p>	
-   Color 4:  <input type="color" name="lavender" value="#b58efd"  /> <br><br>
-   Color 7:  <input type="color" name="lgrey" value="#d8d6d6"  />
+    <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539134455/Arras/Color4_2FColor7.png"/></p>	
+
+  <table style="width:auto" cellpadding="10">
+    <tr>
+      <td>Color 4:</td>
+      <td><input type="color" name="lavender" value="#b58efd"  /></td> 
+    </tr>
+    <tr>
+      <td>Color 7:</td>
+      <td><input type="color" name="lgrey" value="#d8d6d6"  /></td>
+    </tr>
+  </table>
 </div>
   <br><br>
-
   
   
 <div class="boxBlue2">  
   <h1> Please enter a border size: </h1>  
    <h5> If you don't know what border size to pick, use 0.5 </h5>
-   <p><img src="https://i.redd.it/mccj6rmddeo01.jpg"/></p>	
+   <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539135056/Arras/BorderSize.png"/></p>	
    Border Size:  <input type="number" name="borderSize" value="0.5" step="0.1" style="text-align:center"/><p> 
 </div>
   <br><br>
@@ -239,15 +247,12 @@ function doDL(s){
 
 <div class="boxBlue2">  
   <h1> How to use your theme in Arras.io: </h1>  
-   <p> Follow these Instructions: </p>
-   <p><img src="https://res.cloudinary.com/road6943/image/upload/v1538771003/samples/landscapes/landscape-panorama.jpg"/></p>	
+   <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539135605/Arras/HowToUseTheme.png"/></p>	
  
 </div>
-<br>
+<br /><br />
   
 
-
-<br /><br />
 
 
 
