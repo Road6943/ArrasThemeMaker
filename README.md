@@ -2,7 +2,6 @@
 Live Version availiable at this link: https://codepen.io/road-to-100k/full/MPyOeQ/
 
 ![Alt Text](http://i.imgur.com/KZBskAT.png)
-![Imgur Image](http://i.imgur.com/zTONrOD.jpg)
 
 ____
 
