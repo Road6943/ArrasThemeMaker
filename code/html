@@ -75,8 +75,8 @@
   background-color: #43a4c8;
   color: #ffffff;float: right;"
 
-type="button" name="importCode" id="importCode" value="Import Code (Beta)" 
-       onclick="window.location.href='https://docs.google.com/spreadsheets/d/1pEVB9ICxy7vsuUvywrie7Q9iubazBrnxY_K5AzvfIZo/edit?usp=sharing', '_blank' " 
+type="button" name="importCode" id="importCode" value="Import Theme (Only works in Visual Theme Maker)" 
+       onclick="window.location.href='https://codepen.io/road-to-100k/full/GRpvMzb', '_blank' " 
 
 style="float: right" target="_blank"
 }       
