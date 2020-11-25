@@ -1,4 +1,37 @@
-<form oninput="finalCode.value = '{&quot;name&quot;: &quot;' + themeName.value + '&quot;,&quot;content&quot;:{' + ' &quot;teal&quot;: &quot;' + teal.value + '&quot;,' + ' &quot;lgreen&quot;: &quot;' + lgreen.value + '&quot;,' + ' &quot;orange&quot;: &quot;' + orange.value + '&quot;,' + ' &quot;yellow&quot;: &quot;' + yellow.value + '&quot;,' + ' &quot;lavender&quot;: &quot;' + lavender.value + '&quot;,' + ' &quot;pink&quot;: &quot;' + pink.value + '&quot;,' + ' &quot;vlgrey&quot;: &quot;' + vlgrey.value + '&quot;,' + ' &quot;lgrey&quot;: &quot;' + lgrey.value + '&quot;,' + ' &quot;guiwhite&quot;: &quot;' + guiWhite.value + '&quot;,' + ' &quot;black&quot;: &quot;' + black.value + '&quot;,' + ' &quot;blue&quot;: &quot;' + blue.value + '&quot;,' + ' &quot;green&quot;: &quot;' + green.value + '&quot;,' + ' &quot;red&quot;: &quot;' + red.value + '&quot;,' + ' &quot;gold&quot;: &quot;' + gold.value + '&quot;,' + ' &quot;purple&quot;: &quot;' + purple.value + '&quot;,' + ' &quot;magenta&quot;: &quot;' + magenta.value + '&quot;,' + ' &quot;grey&quot;: &quot;' + grey.value + '&quot;,' + ' &quot;dgrey&quot;: &quot;' + dgrey.value + '&quot;,' + ' &quot;white&quot;: &quot;' + white.value + '&quot;,' + ' &quot;guiBlack&quot;: &quot;' + guiBlackDropdown.value + '&quot;,' + ' &quot;palleteSize&quot;: ' + '10' + ','+' &quot;border&quot;: ' + borderSize.value + '}}' ">
+<header><a href="https://codepen.io/road-to-100k/full/GRpvMzb" target="_blank">Try out the new Visual Theme Maker by Clicking Me!</a></header>
+
+
+
+<form oninput="finalCode.value = JSON.stringify({
+  name: themeName.value,
+  author: authorName.value,
+  content: {
+    teal: teal.value,
+    lgreen: lgreen.value,
+    orange: orange.value,
+    yellow: yellow.value,
+    lavender: lavender.value,
+    pink: pink.value,
+    vlgrey: vlgrey.value,
+    lgrey: lgrey.value,
+    guiwhite: guiWhite.value,
+    black: black.value,
+    blue: blue.value,
+    green: green.value,
+    red: red.value,
+    gold: gold.value,
+    purple: purple.value,
+    magenta: magenta.value,
+    grey: grey.value,
+    dgrey: dgrey.value,
+    white: white.value,
+    guiblack: guiBlackDropdown.value,
+    paletteSize: 10,
+    border: borderSize.value,
+  }
+})">
+  
+  
 
 <div class="header">
   <div class="progress-container">
@@ -6,31 +39,87 @@
   </div> 
 </div>  
   
+<form>
+
+ <!-- Future Default Values Changer
+
+
+ <select style= "border:3px solid #3d6a7b;
+  border-radius: 8px 8px 8px 8px;
+  padding: 2px 6px 2px 6px;
+  background-color: #43a4c8;
+  color: #ffffff;float: left;" id="changeTheme">
+   
+  <option value="" hidden selected>Change Default Theme (not finished yet)</option>
+  <option value="lightColors">Light Colors</option>
+  <option value="darkColors">Dark Colors</option>
+  <option value="natural">Natural</option>
+  <option value="classic">Classic</option>
+  <option value="pumpkinSkeleton">Pumpkin Skeleton</option>
+  <option value="forest">Forest</option>
+  <option value="midnight">Midnight</option>
+  <option value="snow">Snow</option>
+  <option value="coralReef">Coral Reef</option>
+  <option value="badlands">Badlands</option>
+  <option value="bleach">Bleach</option>
+</select>  
+-->  
+
+ 
+
+  
+  
+<input style= "border:3px solid #3d6a7b;
+  border-radius: 8px 8px 8px 8px;
+  padding: 2px 6px 2px 6px;
+  background-color: #43a4c8;
+  color: #ffffff;float: right;"
+
+type="button" name="importCode" id="importCode" value="Import Code (Beta)" 
+       onclick="window.location.href='https://docs.google.com/spreadsheets/d/1pEVB9ICxy7vsuUvywrie7Q9iubazBrnxY_K5AzvfIZo/edit?usp=sharing', '_blank' " 
+
+style="float: right" target="_blank"
+}       
+/> 
+
+<br><br>  
+  
+  
+  
   
 <div class="boxGreen">  
   <h2> Road's Arras.io Theme Maker (v2.0) </h2>
 </div>  
+<br>
+  
+  
 
   
   
-<div class="boxGrey">   
-   <h6> <a href="https://www.google.com/chrome/">To ensure the best experience, please use Google Chrome, Firefox, or Opera. Safari and Edge have poor support for the color selector tools.</a>
-</h6>  
-</div>  
+<img src="https://res.cloudinary.com/road6943/image/upload/v1539508344/Arras/Supported-Browsers.png" id="supportedThemes" name="supportedThemes"/>  
   
-  
+  <img src="https://res.cloudinary.com/road6943/image/upload/v1539508635/Arras/Unsupported-Browsers.png" id="unsupportedThemes"/>
   
 <div class="boxGrey">   
-   <h6> <a href="https://docs.google.com/spreadsheets/d/1Aw93tmKPomncLDERNs7UsF4SqD9EJ0yzHh5BN2EzJUM/edit?usp=sharing">(ps: If this theme maker doesn't play well with your computer, then you can still try out my old theme maker!)</a>
+   <h6> <a href="https://docs.google.com/spreadsheets/d/1Aw93tmKPomncLDERNs7UsF4SqD9EJ0yzHh5BN2EzJUM/edit?usp=sharing" target="_blank" >(ps: If this theme maker doesn't play well with your computer, then you can still try out my old theme maker!)</a>
 </h6>  
 </div>
+  
+  
   
 <div class="boxBlue1">  
   <h1>Please enter the name of your theme:
   <br>  
-     <input type="text" name="themeName" placeholder="Enter Theme Name Here" style="text-align:center"/> 
+     <input type="text" name="themeName" placeholder="Enter Theme Name Here" style="text-align:center" value="Enter Theme Name Here"/> 
+    
+    
+    <h1>Please enter your name:
+  <br>  
+     <input type="text" name="authorName" placeholder="Enter Author Name Here" style="text-align:center" value="Enter Author Name Here"/>
 </div>
   <br><br>
+  
+    <!-- Do NOT Remove the value="Enter Theme Name Here" part or else you'll screw up the Theme Code Importer -->
 
   
   
@@ -58,11 +147,11 @@
  <table style="width:auto" cellpadding="10">
     <tr>
       <td>Map Background:</td>
-      <td><input type="color" name="white" value="#dde6eb" /></td> 
+      <td><input type="color" name="white" value="#DBDBDB" /></td> 
     </tr>
     <tr>
       <td>Room Boundaries:</td>
-      <td><input type="color" name="dgrey" value="#999797"/></td>
+      <td><input type="color" name="dgrey" value="#726F6F"/></td>
     </tr>
   </table>
 </div>
@@ -76,19 +165,19 @@
     <table style="width:auto" cellpadding="10">
     <tr>
       <td>Blue Team (Top Left/Left):</td>
-      <td><input type="color" name="blue" value="#3ca4cb"/></td> 
+      <td><input type="color" name="blue" value="#3CA4CB"/></td> 
     </tr>
     <tr>
       <td>Green Team (Top Right/Right):</td>
-      <td><input type="color" name="green" value="#8abc3f"/></td>
+      <td><input type="color" name="green" value="#8ABC3F"/></td>
     </tr>
     <tr>
       <td>Red Team (Bottom Left):</td>
-      <td><input type="color" name="red" value="#e03e41"/></td>
+      <td><input type="color" name="red" value="#E03E41"/></td>
     </tr>
     <tr>
       <td>Magenta Team (Bottom Right):</td>
-      <td><input type="color" name="magenta" value="#c16094"></td>
+      <td><input type="color" name="magenta" value="#CC669C"></td>
     </tr>
   </table>
 </div>
@@ -103,23 +192,23 @@
    <table style="width:auto" cellpadding="10">
    <tr>
      <td>Eggs:</td>
-     <td><input type="color" name="vlgrey" value="#eaeaea"/></td>
+     <td><input type="color" name="vlgrey" value="#E8EBF7"/></td>
    </tr>
    <tr>
      <td>Squares:</td>
-     <td><input type="color" name="gold" value="#efc74b"/></td>
+     <td><input type="color" name="gold" value="#EFC74B"/></td>
    </tr>
    <tr>
      <td>Triangles:</td>
-     <td><input type="color" name="orange" value="#e7896d"/></td>
+     <td><input type="color" name="orange" value="#E7896D"/></td>
    </tr>
    <tr>
      <td>Pentagons:</td>
-     <td><input type="color" name="purple" value="#8d6adf"></td>
+     <td><input type="color" name="purple" value="#8D6ADF"></td>
    </tr>
    <tr>
      <td>Crashers:</td>
-     <td><input type="color" name="pink" value="#ef99c3"></td>
+     <td><input type="color" name="pink" value="#EF99C3"></td>
    </tr>
   </table>
 </div>
@@ -134,15 +223,15 @@
    <table style="width:auto" cellpadding="10">
    <tr>
      <td>Main Health Bar:</td>
-     <td><input type="color" name="lgreen" value="#b9e87e"  /></td>
+     <td><input type="color" name="lgreen" value="#B9E87E"  /></td>
    </tr>
    <tr>
      <td>Shield Bar:</td>
-     <td><input type="color" name="teal" value="#7adbbc" /></td>
+     <td><input type="color" name="teal" value="#7ADBBC" /></td>
    </tr>
    <tr>
      <td>EXP Bar:</td>
-     <td><input type="color" name="yellow" value="#fdf380"  /></td>
+     <td><input type="color" name="yellow" value="#FDF380"  /></td>
    </tr>
   </table>
 </div>
@@ -151,9 +240,9 @@
   
  
 <div class="boxBlue2">    
-  <h1> What color do you want barrels and rocks to be? </h1>
-   <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539132999/Arras/Barrels_2FRocks.png"/></p>	
-   Barrels/Rocks:  <input type="color" name="grey" value="#b5b5b9"/> 
+  <h1> What color do you want barrels, rocks, and the bar backgrounds to be? </h1>
+   <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539497253/Arras/Barrels_2FRocks_2FBarBackgounds.png"/></p>	
+   Barrels/Rocks/Bar Backgrounds:  <input type="color" name="grey" value="#A7A7AF"/> 
 </div>
   <br><br>
 
@@ -161,7 +250,7 @@
 <div class="boxBlue2">    
   <h1> What color should the in-game text be? </h1> 
    <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539133807/Arras/inGameText.png"/></p>	
-   Text Color:  <input type="color" name="guiWhite" value="#ffffff"  />
+   Text Color:  <input type="color" name="guiWhite" value="#ffffff"  />
 </div>
   <br><br>  
   
@@ -171,7 +260,7 @@
 <div class="boxBlue2">    
   <h1> What color do you want dark borders, text outlines, and health bar backgrounds to be? </h1>
     <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539149691/Arras/DarkBorders_2FTextOutlines_2FHealthBarBackground.png"/></p>	
-    Dark Borders/Text Outlines/Health Bar Backgrounds:  <input type="color" name="black" value="#484848"/>
+    Dark Borders/Text Outlines/Health Bar Backgrounds:  <input type="color" name="black" value="#484848"/>
 </div>
   <br><br>
 
@@ -185,11 +274,11 @@
   <table style="width:auto" cellpadding="10">
     <tr>
       <td>Color 4:</td>
-      <td><input type="color" name="lavender" value="#b58efd"  /></td> 
+      <td><input type="color" name="lavender" value="#B58EFD"  /></td> 
     </tr>
     <tr>
       <td>Color 7:</td>
-      <td><input type="color" name="lgrey" value="#d8d6d6"  /></td>
+      <td><input type="color" name="lgrey" value="#AA9F9E"  /></td>
     </tr>
   </table>
 </div>
@@ -200,7 +289,7 @@
   <h1> Please enter a border size: </h1>  
    <h5> If you don't know what border size to pick, use 0.5 </h5>
    <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539135056/Arras/BorderSize.png"/></p>	
-   Border Size:  <input type="number" name="borderSize" value="0.5" step="0.1" style="text-align:center"/><p> 
+   Border Size:  <input type="number" name="borderSize" value="0.5" step="0.1" style="text-align:left"/><p> 
 </div>
   <br><br>
 
@@ -210,8 +299,7 @@
   <h1>Final Code: 
    <br><br>
     <textarea rows='5' cols='80' name="finalCode" id='finalCode' ></textarea>
-    
-
+<br>
 
 <input type="button" id="copyCode" value="⠀Copy Code⠀" onclick="copy_to_clipboard('finalCode');">
 
@@ -220,14 +308,14 @@ function copy_to_clipboard(id)
 {
     document.getElementById('finalCode').select();
     document.execCommand('copy');
-    alert("The code has been copied to your clipboard. Please follow the instrcutions in order to paste it into Arras");
+    alert("The code has been copied to your clipboard. Please follow the instrcutions below in order to use it in Arras");
 }
 </script>
 
   
     
 <!-- Don't delete the line under this one! Its not blank, it has a unicode space character! -->
- 
+ 
 <input value='⠀Download Code⠀' type='button' id="downloadCode"
 onclick='doDL(document.getElementById("finalCode").value)' />
 
@@ -238,21 +326,36 @@ function doDL(s){
 }
 </script>
 <!-- Don't delete the line under this one! Its not blank, it has a unicode space character-->  
- 
+ 
 <input type="reset" value="⠀Reset Inputs⠀" id="resetInputs">    
                     
 </div>
-  <br><br>
+  
+<br><br>  
 
+
+  
+  
 
 <div class="boxBlue2">  
   <h1> How to use your theme in Arras.io: </h1>  
-   <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539135605/Arras/HowToUseTheme.png"/></p>	
+   <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539323381/Arras/HowToUseTheme.v2.png" id='how2use' name='how2use'/></p>	
  
-</div>
-<br /><br />
+</div> <br><br>
+  
+  
+    <div class="boxGreen" onclick="window.open('https://codepen.io/road-to-100k/full/OJVaypw', '_blank')">
+    <h3><u>Can't Think of a theme? Try Out the Random Theme Generator by clicking here!</u></h3>
+  </div>  
   
 
+<div class="boxGrey">   
+   <h6> <a>(Special Thanks to CX for (once again) making my code beautiful and readable)</a>
+</h6>  
+</div>
+  
+  
+<br>
 
 
 
