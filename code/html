@@ -141,7 +141,7 @@ style="float: right" target="_blank"
   <!-- Road - I used 2 unicode space characters after longest text to create some space http://www.fileformat.info/info/unicode/char/00a0/browsertest.htm-->
   <h1> What color should the map background and room boundaries be? </h1>
     <p>
-     <img src="https://res.cloudinary.com/road6943/image/upload/v1539131730/Arras/Map_Background_2FRoom_Boundaries.png"/>
+     <img src="https://github.com/Road6943/ArrasThemeMaker/blob/master/Map%20Background%252FRoom%20Boundaries.png?raw=true"/>
    </p>
  
  <table style="width:auto" cellpadding="10">
@@ -161,7 +161,7 @@ style="float: right" target="_blank"
 
 <div class="boxBlue2">    
   <h1> What colors should the 4 Teams be? </h1>
-    <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539150202/Arras/Teams3.png"/></p>
+    <p><img src="https://github.com/Road6943/ArrasThemeMaker/blob/master/Teams3.png?raw=true"/></p>
     <table style="width:auto" cellpadding="10">
     <tr>
       <td>Blue Team (Top Left/Left):</td>
@@ -188,7 +188,7 @@ style="float: right" target="_blank"
 <div class="boxBlue2">    
   <!-- Road - I used 2 unicode space characters after longest text to create some space http://www.fileformat.info/info/unicode/char/00a0/browsertest.htm-->
   <h1> What colors do you want the shapes to be? </h1>
-  <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539130711/Arras/Shapes.png"/></p>	
+  <p><img src="https://github.com/Road6943/ArrasThemeMaker/blob/master/Shapes.png?raw=true"/></p>	
    <table style="width:auto" cellpadding="10">
    <tr>
      <td>Eggs:</td>
@@ -219,7 +219,7 @@ style="float: right" target="_blank"
 <div class="boxBlue2">    
   <!-- Road - I used 2 unicode space characters after longest text to create some space http://www.fileformat.info/info/unicode/char/00a0/browsertest.htm -->
   <h1> What colors do you want the bars to be? </h1>
-   <p><img src="https://i.lensdump.com/i/Ags6H2.png"/></p>	
+   <p><img src="https://github.com/Road6943/ArrasThemeMaker/blob/master/bars.png?raw=true"/></p>	
    <table style="width:auto" cellpadding="10">
    <tr>
      <td>Main Health Bar:</td>
@@ -241,16 +241,16 @@ style="float: right" target="_blank"
  
 <div class="boxBlue2">    
   <h1> What color do you want barrels, rocks, and the bar backgrounds to be? </h1>
-   <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539497253/Arras/Barrels_2FRocks_2FBarBackgounds.png"/></p>	
-   Barrels/Rocks/Bar Backgrounds:  <input type="color" name="grey" value="#A7A7AF"/> 
+   <p><img src="https://github.com/Road6943/ArrasThemeMaker/blob/master/Barrels%252FRocks.png?raw=true"/></p>	
+   Barrels/Rocks/Bar Backgrounds:  <input type="color" name="grey" value="#A7A7AF"/> 
 </div>
   <br><br>
 
  
 <div class="boxBlue2">    
   <h1> What color should the in-game text be? </h1> 
-   <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539133807/Arras/inGameText.png"/></p>	
-   Text Color:  <input type="color" name="guiWhite" value="#ffffff"  />
+   <p><img src="https://github.com/Road6943/ArrasThemeMaker/blob/master/inGameText.png?raw=true"/></p>	
+   Text Color:  <input type="color" name="guiWhite" value="#ffffff"  />
 </div>
   <br><br>  
   
@@ -259,8 +259,8 @@ style="float: right" target="_blank"
   
 <div class="boxBlue2">    
   <h1> What color do you want dark borders, text outlines, and health bar backgrounds to be? </h1>
-    <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539149691/Arras/DarkBorders_2FTextOutlines_2FHealthBarBackground.png"/></p>	
-    Dark Borders/Text Outlines/Health Bar Backgrounds:  <input type="color" name="black" value="#484848"/>
+    <p><img src="https://github.com/Road6943/ArrasThemeMaker/blob/master/DarkBorders%252FTextOutlines%252FHealthBarBackground.png?raw=true"/></p>	
+    Dark Borders/Text Outlines/Health Bar Backgrounds:  <input type="color" name="black" value="#484848"/>
 </div>
   <br><br>
 
@@ -269,7 +269,7 @@ style="float: right" target="_blank"
   <h1> Please enter 2 colors that control the background of the pentagon nest: </h1>  
    <h5> Color 4 blends with the pentagon color and gives the bg color when there is a pentagon nest. </h5>
    <h5> Color 7 blends with the map background color and sometimes gives the color of the middle when there is no pentagon nest. It's basically unused unless purposely enabled in a private server. </h5>	
-    <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539134455/Arras/Color4_2FColor7.png"/></p>	
+    <p><img src="https://github.com/Road6943/ArrasThemeMaker/blob/master/Color4%252FColor7.png?raw=true"/></p>	
 
   <table style="width:auto" cellpadding="10">
     <tr>
@@ -288,8 +288,8 @@ style="float: right" target="_blank"
 <div class="boxBlue2">  
   <h1> Please enter a border size: </h1>  
    <h5> If you don't know what border size to pick, use 0.5 </h5>
-   <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539135056/Arras/BorderSize.png"/></p>	
-   Border Size:  <input type="number" name="borderSize" value="0.5" step="0.1" style="text-align:left"/><p> 
+   <p><img src="https://github.com/Road6943/ArrasThemeMaker/blob/master/BorderSize.png?raw=true"/></p>	
+   Border Size:  <input type="number" name="borderSize" value="0.5" step="0.1" style="text-align:left"/><p> 
 </div>
   <br><br>
 
@@ -315,7 +315,7 @@ function copy_to_clipboard(id)
   
     
 <!-- Don't delete the line under this one! Its not blank, it has a unicode space character! -->
- 
+ 
 <input value='⠀Download Code⠀' type='button' id="downloadCode"
 onclick='doDL(document.getElementById("finalCode").value)' />
 
@@ -326,7 +326,7 @@ function doDL(s){
 }
 </script>
 <!-- Don't delete the line under this one! Its not blank, it has a unicode space character-->  
- 
+ 
 <input type="reset" value="⠀Reset Inputs⠀" id="resetInputs">    
                     
 </div>
@@ -339,7 +339,7 @@ function doDL(s){
 
 <div class="boxBlue2">  
   <h1> How to use your theme in Arras.io: </h1>  
-   <p><img src="https://res.cloudinary.com/road6943/image/upload/v1539323381/Arras/HowToUseTheme.v2.png" id='how2use' name='how2use'/></p>	
+   <p><img src="https://github.com/Road6943/ArrasThemeMaker/blob/master/HowToUseTheme.png?raw=true" id='how2use' name='how2use'/></p>	
  
 </div> <br><br>
   
